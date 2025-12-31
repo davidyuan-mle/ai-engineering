@@ -1,0 +1,1 @@
+This is based on the learning of the book "Build a Large Language Model" by Sebastian Raschka. 
