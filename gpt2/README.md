@@ -1,1 +1,5 @@
-This is based on the learning of the book "Build a Large Language Model" by Sebastian Raschka. 
+The pytorch implementation of GPT2 model.
+
+Reference:
+
+[0] Raschka, S. (2025). Build a large language model (from scratch)
