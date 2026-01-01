@@ -9,9 +9,10 @@ class GELU(nn.Module):
     def forward(self, x):
         return 0.5 * x * (1 + torch.tanh(torch.sqrt(torch.tensor(2 / torch.pi)) * (x + 0.044715 * torch.pow(x, 3))))
 
+
 # Layer Normalization
 class LayerNorm(nn.Module):
-    def __init__(self, configure): # configure is a dictionary containing the model configuration
+    def __init__(self, configure):  # configure is a dictionary containing the model configuration
         super().__init__()
         self.scale = nn.Parameter(torch.ones(configure['d_model']))
         self.shift = nn.Parameter(torch.zeros(configure['d_model']))
