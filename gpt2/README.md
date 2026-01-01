@@ -6,3 +6,5 @@ The pytorch implementation of GPT2 model.
 Reference:
 
 [0] Raschka, S. (2025). Build a large language model (from scratch)
+
+[1] Karpathy, A. Youtube Video: Neural Networks Zero to Hero, https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
