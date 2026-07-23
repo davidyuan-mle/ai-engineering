@@ -30,6 +30,7 @@ A full PyTorch implementation of the GPT-2 architecture, built component by comp
 
 - Activation functions (ReLU, GELU, Swish, etc.)
 - Deformable Convolutional Networks v2 (DCNv2)
+- Sequence pooling for CTR/ads ranking — sum, mean, attention, and DIN (Deep Interest Network)
 
 ## References
 
